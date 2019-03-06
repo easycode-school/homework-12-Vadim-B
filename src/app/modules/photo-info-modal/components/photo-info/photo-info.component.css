@@ -1,0 +1,63 @@
+.modal-body {
+	margin: 0;
+	padding: 0;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	z-index: 15;
+}
+
+.user-photo {
+	overflow: hidden;
+	margin-right: -15px;
+	margin-left: -15px;
+	height: 700px;
+	position: relative;
+}
+
+.user-avatar {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background: #000;
+	overflow: hidden;
+	position: relative;
+}
+
+img {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+	width: auto;
+}
+
+.photo-info-item > * {
+	display: block;
+	text-align: center;
+}
+
+.comment-owner-avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #000;
+	overflow: hidden;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.comment-date {
+	font-size: 12px;
+	color: gray
+}
+
+.photo-sub-comment .comment-owner-avatar {
+	width: 40px;
+	height: 40px;
+	flex-shrink: 0;
+}
